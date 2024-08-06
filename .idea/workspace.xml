@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9b327fe-5286-49d2-80a1-f69f17e03c52" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fasit_Ny-Eksamen.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CardSeriesApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/DatabaseDataHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/DatabaseHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Eksamen kont PGR112.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FileHandlers/FileDataHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FileHandlers/FileHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/samlerkort.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/samlerkort.txt" afterDir="false" />
-    </list>
+    <list default="true" id="b9b327fe-5286-49d2-80a1-f69f17e03c52" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,7 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1722935228802</updated>
-      <workItem from="1722935230542" duration="11782000" />
+      <workItem from="1722935230542" duration="12097000" />
     </task>
     <servers />
   </component>

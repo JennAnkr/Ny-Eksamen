@@ -1,9 +1,10 @@
-import FileHandlers.FileDataHandler;
 import FileHandlers.FileHandler;
+import FileHandlers.IFileHandler;
 
 public class Main {
     public static void main(String[] args) {
-        FileHandler fileHandler = new FileDataHandler("src/samlerkort.txt");
+        IFileHandler fileHandler = new FileHandler("src/samlerkort.txt");
+        fileHandler.executeSqlFileToSetupDb("src/samlerkort.sql");
         fileHandler.processFileData();
     }
 }

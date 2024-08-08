@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9b327fe-5286-49d2-80a1-f69f17e03c52" name="Changes" comment="" />
+    <list default="true" id="b9b327fe-5286-49d2-80a1-f69f17e03c52" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Database/IDatabaseHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FileHandlers/IFileHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fasit_Ny-Eksamen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Fasit_Ny-Eksamen.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CardSeriesApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CardSeriesApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Database/DatabaseDataHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Database/DatabaseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/DatabaseHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileHandlers/FileDataHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileHandlers/FileHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileHandlers/FileHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/samlerkort.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/samlerkort.sql" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,9 +34,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
 }]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2kHKmzQoXJESXeQXOmVFoIposTJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -35,6 +56,10 @@
   "keyToString": {
     "Application.CardSeriesApp.executor": "Run",
     "Application.Main.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -45,7 +70,15 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -91,7 +124,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1722935228802</updated>
-      <workItem from="1722935230542" duration="12097000" />
+      <workItem from="1722935230542" duration="12219000" />
+      <workItem from="1723017040697" duration="27847000" />
     </task>
     <servers />
   </component>
@@ -102,14 +136,19 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>5</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/src/Database/DatabaseHandler.java</url>
+          <line>113</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/FileHandlers/FileDataHandler.java</url>
-          <line>80</line>
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/src/Database/DatabaseHandler.java</url>
+          <line>175</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Database/DatabaseHandler.java</url>
+          <line>99</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

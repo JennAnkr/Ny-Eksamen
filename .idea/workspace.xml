@@ -5,19 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9b327fe-5286-49d2-80a1-f69f17e03c52" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/IDatabaseHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FileHandlers/IFileHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fasit_Ny-Eksamen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Fasit_Ny-Eksamen.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CardSeriesApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CardSeriesApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Database/DatabaseDataHandler.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Database/DatabaseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/DatabaseHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FileHandlers/FileDataHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FileHandlers/FileHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileHandlers/FileHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/samlerkort.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/samlerkort.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,10 +24,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -86,7 +76,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.CardSeriesApp">
     <configuration name="CardSeriesApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CardSeriesApp" />
       <module name="Fasit_Ny-Eksamen" />
@@ -103,16 +93,16 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.CardSeriesApp" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.159" />
-        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.159" />
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.300" />
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.300" />
       </set>
     </attachedChunks>
   </component>
@@ -125,7 +115,8 @@
       <option name="presentableId" value="Default" />
       <updated>1722935228802</updated>
       <workItem from="1722935230542" duration="12219000" />
-      <workItem from="1723017040697" duration="27847000" />
+      <workItem from="1723017040697" duration="28443000" />
+      <workItem from="1723459463157" duration="5145000" />
     </task>
     <servers />
   </component>
@@ -137,18 +128,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Database/DatabaseHandler.java</url>
-          <line>113</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Database/DatabaseHandler.java</url>
-          <line>175</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Database/DatabaseHandler.java</url>
           <line>99</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Database/DatabaseHandler.java</url>
+          <line>179</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

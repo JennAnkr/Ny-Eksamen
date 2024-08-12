@@ -175,8 +175,25 @@ public class DatabaseHandler implements IDatabaseHandler {
     private StringBuilder buildResultFromResultSet(ResultSet resultSet) throws SQLException {
         StringBuilder results = new StringBuilder();
         int columnCount = resultSet.getMetaData().getColumnCount();
-        for (int i = 1; i < columnCount; i++){
-            results.append(resultSet.getString(i)).append(" ");
+        for (int i = 1; i <= columnCount; i++){
+            String dataType = resultSet.getMetaData().getColumnTypeName(i);
+            switch (dataType){
+                case "DOUBLE":
+                    results.append(resultSet.getDouble(i)).append("  |   ");
+                    break;
+                case "INT":
+                    results.append(resultSet.getInt(i)).append("  |   ");
+                    break;
+                case "LONG":
+                    results.append(resultSet.getLong(i)).append("  |   ");
+                    break;
+                case "FLOAT":
+                    results.append(resultSet.getFloat(i)).append("  |   ");
+                    break;
+                default:
+                    results.append(resultSet.getString(i)).append("  |   ");
+                    break;
+            }
         }
         return results;
     }

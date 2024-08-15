@@ -111,6 +111,7 @@ public class DatabaseHandler implements IDatabaseHandler {
         try (PreparedStatement statement = this.getPreparedStatement(sql)){
             statement.setString(1, sport);
             ResultSet resultSet = statement.executeQuery();
+            results = getColumnLabels(resultSet).append("\n");
             while (resultSet.next()) {
                 results.append(this.buildResultFromResultSet(resultSet).append("\n"));
             }
@@ -119,6 +120,8 @@ public class DatabaseHandler implements IDatabaseHandler {
         }
         return results.toString();
     }
+
+
 
     @Override
     public String getAllCardsByState(String state) {
@@ -133,6 +136,7 @@ public class DatabaseHandler implements IDatabaseHandler {
             statement.setString(2, state);
             statement.setString(3, state);
             ResultSet resultSet = statement.executeQuery();
+            results = getColumnLabels(resultSet).append("\n");
             while (resultSet.next()) {
                 results.append(this.buildResultFromResultSet(resultSet).append("\n"));
             }
@@ -149,6 +153,7 @@ public class DatabaseHandler implements IDatabaseHandler {
         try (PreparedStatement statement = this.getPreparedStatement(sql)){
             statement.setString(1, sport);
             ResultSet resultSet = statement.executeQuery();
+            results = getColumnLabels(resultSet).append("\n");
             while (resultSet.next()) {
                 results.append(this.buildResultFromResultSet(resultSet).append("\n"));
             }
@@ -179,19 +184,19 @@ public class DatabaseHandler implements IDatabaseHandler {
             String dataType = resultSet.getMetaData().getColumnTypeName(i);
             switch (dataType){
                 case "DOUBLE":
-                    results.append(resultSet.getDouble(i)).append("  |   ");
+                    results.append(resultSet.getDouble(i)).append("     |     ");
                     break;
                 case "INT":
-                    results.append(resultSet.getInt(i)).append("  |   ");
+                    results.append(resultSet.getInt(i)).append("     |     ");
                     break;
                 case "LONG":
-                    results.append(resultSet.getLong(i)).append("  |   ");
+                    results.append(resultSet.getLong(i)).append("     |     ");
                     break;
                 case "FLOAT":
-                    results.append(resultSet.getFloat(i)).append("  |   ");
+                    results.append(resultSet.getFloat(i)).append("     |     ");
                     break;
                 default:
-                    results.append(resultSet.getString(i)).append("  |   ");
+                    results.append(resultSet.getString(i)).append("     |     ");
                     break;
             }
         }
@@ -207,6 +212,15 @@ public class DatabaseHandler implements IDatabaseHandler {
             return "SELECT * FROM Baseballkort where serie in (select id from SamlerkortSerie where UPPER(Sport) = UPPER(?));";
         }
         return null;
+    }
+
+    private StringBuilder getColumnLabels(ResultSet resultSet) throws SQLException {
+        StringBuilder columnLabels = new StringBuilder();
+        int labelCounter = resultSet.getMetaData().getColumnCount();
+        for (int i = 1; i <= labelCounter; i++) {
+            columnLabels.append(resultSet.getMetaData().getColumnName(i)).append("     |     ");
+        }
+        return columnLabels;
     }
 
 
